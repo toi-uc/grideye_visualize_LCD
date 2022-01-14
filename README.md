@@ -4,7 +4,7 @@ Visualize grideye data on RaspberryPi4 and LCD display
 
 LCD display: https://www.switch-science.com/catalog/7347/
 
-Reference: 
+Reference:<br>
 ・　https://gist.github.com/arms22/e62e682089fe428b1de8
 ・　https://www.waveshare.com/wiki/1.28inch_LCD_Module
 
