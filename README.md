@@ -13,7 +13,7 @@ Reference:<br>
 
 `sudo apt install libatlas-base-dev`
 
-## 実行方法
+## Run
 `cd grideye_visualize_LCD`
 
 `python3 ge_visualize_test.py`
