@@ -35,8 +35,7 @@ try:
 
     # print("currentdpi={}, currentfigsize={}".format(mpl.rcParams['figure.dpi'], mpl.rcParams['figure.figsize']))
     plt.figure(figsize=(2, 2))
-    count = 0
-    
+
     while(1):
         # Get grideye data
         myeye = GridEye(0x19)
@@ -51,8 +50,7 @@ try:
         image = Image.open('../pic/ge_heatmap.jpg')
         im_r=image.rotate(180)
         disp.ShowImage(im_r)
-        print("count: {}".format(count))
-        count += 1
+        
 except IOError as e:
     print(e)
 except KeyboardInterrupt:
