@@ -33,24 +33,10 @@ try:
     # Clear display.
     disp.clear()
 
-    # Create blank image for drawing.
-    # image1 = Image.new("RGB", (disp.width, disp.height), "WHITE") # width=240 height=240
-    # draw = ImageDraw.Draw(image1)
-
-    # im_r=image1.rotate(180)
-    # disp.ShowImage(im_r)
-    # time.sleep(3)
-
-    print("currentdpi={}, currentfigsize={}".format(mpl.rcParams['figure.dpi'], mpl.rcParams['figure.figsize']))
+    # print("currentdpi={}, currentfigsize={}".format(mpl.rcParams['figure.dpi'], mpl.rcParams['figure.figsize']))
     plt.figure(figsize=(2, 2))
-    
-    # image = Image.open('../pic/ge_heatmap.jpg')
-    # # image = Image.open('../pic/LCD_1inch28_1.jpg')
-    # im_r=image.rotate(180)
-    # disp.ShowImage(im_r)
-    # disp.module_exit()
-
     count = 0
+    
     while(1):
         # Get grideye data
         myeye = GridEye(0x19)
